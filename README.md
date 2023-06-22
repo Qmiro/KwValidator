@@ -7,10 +7,10 @@ Weryfikacja poprawności podanego numeru księgi wieczystej obowiązujący na te
 
 Treść wybranej księgi na podstawie numeru możemy sprawdzić pod adresem https://przegladarka-ekw.ms.gov.pl/eukw_prz/KsiegiWieczyste/wyszukiwanieKW
 
-Numer składa on się z trzech części
- - Kod wydziału prowadzącego Księge wieczystą - Identyfikator wydziału ciąg o długości 4 znaków
- - Numer księgi - Wartość liczbowa o maksymalnej długości 8 znaków z zakres od 0 do 99999999
- - Cyfra kontrolna - Przyjmuje wartość liczbową z zakresu od 0 do 9
+Każdy wpis do rejestru posiada swój unikalny identyfikator, czyli numer księgi wieczystej, składający się z 3 części oddzielonych znakiem ukośnika: XXXX/XXXXXXXX/X. 
+ - ierwsza część składa się z 4 znaków, które identyfikują sąd prowadzący daną księgę wieczystą.
+ - Druga część składa się z 8 cyfr, które identyfikują nieruchomość w księdze wieczystej.
+ - Ostatnia, trzecia część to tzw. cyfra kontrolna.
 
 Możliwa jest walidacja zarówno krótkiego jak i pełnego numeru kśiegi. Jest to uzależnione od ustawienia opcji 
  - <b>allowShortNumber</b> - domyślnie wartość jest ustawiona na <b>true</b> co zezwala na podawanie skróconego numeu 
